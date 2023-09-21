@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>trillo &mdash; Your all-in-one booking app</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="./img/logo.png" alt="logo-trillo" class="logo" />
+        <form action="#" class="search">
+          <input
+            type="text"
+            value=""
+            class="search__input"
+            placeholder="search hotels"
+          />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="img/sprit.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprit.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification"> 1</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprit.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification"> 12</span>
+          </div>
+          <div class="user-nav__user">
+            <img src="img/user-1.jpg" alt="User" class="user-nav__user-photo" />
+            <span class="user-nav__name">Elias</span>
+          </div>
+        </nav>
+      </header>
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprit.svg#icon-home"></use>
+                </svg>
+                <span>Hotel</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprit.svg#icon-key"></use>
+                </svg>
+                <span>Flight</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprit.svg#icon-map"></use>
+                </svg>
+                <span>Car Rental</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprit.svg#icon-aircraft"></use>
+                </svg>
+                <span>Tours</span>
+              </a>
+            </li>
+          </ul>
+          <div class="legal">&copy; :2023 Project for training</div>
+        </nav>
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img
+                src="./img/hotel-1.jpg"
+                alt="gallery__photo"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="./img/hotel-2.jpg"
+                alt="gallery__photo"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="./img/hotel-3.jpg"
+                alt="gallery__photo"
+                class="gallery__photo"
+              />
+            </figure>
+          </div>
+          <div class="overView">
+            <h1 class="overView__heading">Hotel las palams</h1>
+            <div class="overView__stars">
+              <svg class="overView__icon">
+                <use xlink:href="img/sprit.svg#icon-star"></use>
+              </svg>
+              <svg class="overView__icon">
+                <use xlink:href="img/sprit.svg#icon-star"></use>
+              </svg>
+              <svg class="overView__icon">
+                <use xlink:href="img/sprit.svg#icon-star"></use>
+              </svg>
+              <svg class="overView__icon">
+                <use xlink:href="img/sprit.svg#icon-star"></use>
+              </svg>
+              <svg class="overView__icon">
+                <use xlink:href="img/sprit.svg#icon-star"></use>
+              </svg>
+            </div>
+            <div class="overView__location">
+              <svg class="overView__icon">
+                <use xlink:href="img/sprit.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inlline">Ktowice/Poland</button>
+              <div class="overView__rating">
+                <span class="overView__rating-averge">863</span>
+                <span class="overView__rating-count">423 votes</span>
+              </div>
+            </div>
+          </div>
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Repellendus temporibus adipisci consequatur corporis quibusdam
+                nostrum quaerat laborum ad velit aperiam!
+                ipsum dolor, sit amet consectetur adipisicing elit. Itaque
+                  adipisci dolores eligendi aspernatur aliquid veniam esse
+                  impedit sapiente repellat facilis!
+              </p>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                excepturi natus perferendis? In, ipsa alias?
+              </p>
+              <ul class="list">
+                <li class="list__item">close to the beach</li>
+
+                <li class="list__item">Breackfast included</li>
+                <li class="list__item">Free airport shuttle</li>
+                <li class="list__item">Free wifi in all rooms</li>
+                <li class="list__item">Air conditiong and heating</li>
+                <li class="list__item">Pets allowed</li>
+                <li class="list__item">we speak all languages</li>
+                <li class="list__item">perfect for families</li>
+              </ul>
+              <div class="recommend">
+                <p class="recommend__count">
+                  Elias and his family recomended this hotel
+                </p>
+                <div class="recommend__container-photo">
+                  <img
+                    src="./img/user-1.jpg"
+                    alt="photo-user"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="./img/user-2.jpg"
+                    alt="photo-user"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="./img/user-3.jpg"
+                    alt="photo-user"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="./img/user-4.jpg"
+                    alt="photo-user"
+                    class="recommend__photo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="user-reviews">
+              <figure class="reviews">
+                <blockquote class="reviews__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Atque aliquid, dolores eum architecto expedita non. Lorem
+                  
+                </blockquote>
+                <figcaption class="reviews__user-box">
+                  <img
+                    src="./img/user-6.jpg"
+                    alt="photo"
+                    class="reviews__user-photo"
+                  />
+                  <div class="reviews__user-box-2">
+                    <p class="reviews__user-name">Rita Zerz</p>
+                    <p class="reviews__user-date">seb / 09 / 2023</p>
+                  </div>
+                  <div class="reviews__user-rating">9.5</div>
+                </figcaption>
+              </figure>
+              <figure class="reviews">
+                <blockquote class="reviews__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Atque aliquid, dolores eum architecto expedita non. Lorem
+                  
+                </blockquote>
+                <figcaption class="reviews__user-box">
+                  <img
+                    src="./img/user-6.jpg"
+                    alt="photo"
+                    class="reviews__user-photo"
+                  />
+                  <div class="reviews__user-box-2">
+                    <p class="reviews__user-name">Rita Zerz</p>
+                    <p class="reviews__user-date">seb / 09 / 2023</p>
+                  </div>
+                  <div class="reviews__user-rating">9.5</div>
+                </figcaption>
+              </figure>
+              
+              <button class="btn-inlline  center-button">Show All <span>&rarr;</span></span></button>
+            </div>
+          </div>
+          <div class="cta">
+            <h2 class="cta__book-now">
+              Good news , we have 4 free rooms for your selected dates !!
+            </h2>
+            <button class="btn">
+              <span class="btn__visible">Book Now</span>
+              <span class="btn__unVisible">Only 4 Rooms left</span>
+            
+            </button>
+          </div>
+        </main>
+
+      </div>
+    </div>
+  </body>
+</html>
